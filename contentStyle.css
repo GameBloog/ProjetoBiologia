@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --background-header: #065e7c;
+  --text-header: #ffffff;
+
+  --footer-background: #387e96;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Mulish", sans-serif;
+}
+
+header {
+  height: 7rem;
+  width: 100%;
+  background-color: var(--background-header);
+  margin-top: 0;
+}
+
+header div {
+  width: 100%;
+  padding: 1.2rem 2.8rem;
+}
+
+header div p {
+  text-align: center;
+  margin-top: 0;
+  width: 100%;
+
+  font-weight: 600;
+
+  color: var(--text-header);
+}
+
+main {
+  margin-bottom: 3.9rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+span {
+  display: inline-block;
+  margin: 0 2.2rem;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-top: 3.1rem;
+  line-height: 3.8rem;
+  text-align: center;
+}
+
+p {
+  margin-top: 3.1rem;
+  max-width: 38.2rem;
+  line-height: 3.8rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--footer-background);
+
+  height: 6.4rem;
+  max-width: 100%;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--text-header);
+}
+
+@media (max-width: 767px) {
+  header div {
+    padding: 1.2rem;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
+  p {
+    max-width: 100%;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 479px) {
+  header div {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+  }
+
+  p {
+    max-width: 100%;
+    margin-top: 1.5rem;
+  }
+}
+
+@media (min-width: 767px) {
+  main {
+    margin: 4.4rem 3.4rem 3.9rem 11.2rem;
+  }
+
+  header div {
+    padding: 1.2rem 2.8rem;
+  }
+
+  img {
+    max-width: 80.3rem;
+    max-height: auto;
+  }
+
+  span{
+    margin: auto;
+    padding: auto;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+    margin-top: 2rem;
+     text-align: start;
+  }
+
+  p {
+    max-width: 80rem;
+    margin-top: 2rem;
+     text-align: start;
+  }
+}
